@@ -3,7 +3,7 @@ import tempfile
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ConversationHandler, ContextTypes
 
-BOT_TOKEN = os.environ["8755429686:AAF6ULzszyABCoPGY3Q_IVyYi5-3Mn9ZaiI"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 WAITING_FOR_TEXT = 1
 
